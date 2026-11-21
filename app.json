@@ -1,0 +1,40 @@
+{
+  "name": "AMON-XMD",
+  "description": "⚡ AMON-XMD: Next-gen multi-device WhatsApp bot engineered for speed, automation, and seamless group control. Built in 🇰🇪 by Amon.",
+  "repository": "https://github.com/amondev254/AMON-XMD",
+  "keywords": ["whatsapp", "bot"],
+  "logo": "https://i.ibb.co/G4f0D721/img-0pyiocoxw4.jpg",
+  "success_url": "/",
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+    }
+  ],
+  "env": {
+    "OWNER_NUMBER": {
+      "description": "Your WhatsApp number in international format (e.g. 2547XXXXXXXX). This is required for bot owner permissions.",
+      "required": true,
+      "value": ""
+    },
+    "SESSION_ID": {
+      "description": "Session string (Access key used to authenticate WhatsApp connection).",
+      "required": true,
+      "value": ""
+    },
+    "PREFIX": {
+      "description": "Command prefix for bot commands (e.g. ! or . or #).",
+      "required": false,
+      "value": "."
+    },
+    "BOT_NAME": {
+      "description": "Display name of the bot.",
+      "required": false,
+      "value": "AMON-XMD"
+    },
+    "MODE": {
+      "description": "Bot mode: private or public.",
+      "required": false,
+      "value": "public"
+    }
+  }
+}
