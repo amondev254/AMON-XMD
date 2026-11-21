@@ -1,0 +1,29 @@
+{
+  "name": "AMON-XMD",
+  "description": "⚡ AMON-XMD: Next-gen multi-device WhatsApp bot engineered for speed, automation, and seamless group control. Built in 🇰🇪 by Amon.",
+  "platform": "whatsapp",
+  "runtime": "node",
+  "version": "18",
+  "main": "index.js",
+  "start": "node index.js",
+  "install": "npm install",
+  "memory_limit": "150MB",
+  "env": {
+    "SESSION_ID": {
+      "description": "Your WhatsApp session ID. Generate it from your session website.",
+      "required": true,
+      "type": "string"
+    },
+    "OWNER_NUMBER": {
+      "description": "Your WhatsApp number with country code (e.g. 2547XXXXXXXX).",
+      "required": true,
+      "type": "string"
+    },
+    "PREFIX": {
+      "description": "Bot command prefix.",
+      "required": false,
+      "default": ".",
+      "type": "string"
+    }
+  }
+}
