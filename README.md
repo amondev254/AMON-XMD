@@ -42,7 +42,7 @@
   <a href="https://access-key-tge1.onrender.com">
     <img src="https://img.shields.io/badge/SESSION%20ID%20SITE-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="Session ID Site"/>
   </a>
-  <a href="YOUR_PANEL_URL_HERE">
+  <a href="https://rl.katabump.fr/964263">
     <img src="https://img.shields.io/badge/PANEL%20LINK-7C3AED?style=for-the-badge&logo=server&logoColor=white" alt="Panel Link"/>
   </a>
 </div>
@@ -149,7 +149,7 @@ timezone: 'Africa/Nairobi',
 
 | Field / Env Var | Description | Example |
 | :--- | :--- | :--- |
-| `ownerNumber` | Owner number(s) without `+` or spaces | `['254118476518']` |
+| `ownerNumber` | Owner number(s) without `+` or spaces | `['254759XXXXXXXX']` |
 | `ownerName` | Owner display name(s) | `['Amon']` |
 | `sessionID` / `SESSION_ID` | Session string from **Session ID Site** | `AMON-XMD~xxxx` |
 | `prefix` | Command trigger symbol | `.` |
