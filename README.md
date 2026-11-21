@@ -53,7 +53,7 @@
 2. Click **Session ID Site** above to generate and copy your `SESSION_ID`.
 3. Click **Panel Link** above to open your hosting panel, create a **Node.js** server, and upload & extract the bot archive.
 4. Open **`setting.js`** in your panel file manager and set:
-   * `ownerNumber`: Your number without `+` or spaces (e.g., `['254118476518']`)
+   * `ownerNumber`: Your number without `+` or spaces (e.g., `['254759XXXXXXXX']`)
    * `ownerName`: Your preferred name (e.g., `['Amon']`)
    * `sessionID`: Paste your generated session ID
 5. Save **`setting.js`**, install dependencies if needed (`npm install`), and click **Start / Run** on your panel.
